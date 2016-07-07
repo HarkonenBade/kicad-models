@@ -51,8 +51,8 @@ def create_readme(scad):
 
     with open("README.md", "w") as readme:
         readme.write(header + "\n")
-        readme.write("(Render of {})[./render.png]\n".format(scad))
-        readme.write("Datasheet: [here](./datasheet.pdf)\n")
+        readme.write("![Render of {}](./render.png)\n\n".format(scad))
+        readme.write("Datasheet: [here](./datasheet.pdf)\n\n")
         readme.write(body)
     succ("Done")
 
