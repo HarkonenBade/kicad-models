@@ -1,3 +1,6 @@
+/*
+    XLAMP-MX-3 LED Module
+*/
 use <../../lib/geometric.scad>
 
 h = 1.35;

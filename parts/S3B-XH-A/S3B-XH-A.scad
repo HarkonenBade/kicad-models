@@ -1,3 +1,12 @@
+/*
+    JST XH
+
+    Openscad models for various JST XH connctor elements.
+
+    Currently covered:
+    * XHP-xx plug with flying leads
+    * SxxB-XH-A right angle socket
+*/
 use <../../lib/geometric.scad>
 use <../../lib/pins.scad>
 

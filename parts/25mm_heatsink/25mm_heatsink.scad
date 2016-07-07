@@ -1,3 +1,7 @@
+/*
+    25mmx25mm Finned Heatsink
+*/
+
 use <../../lib/geometric.scad>
 
 W = 25.0;
